@@ -1,4 +1,38 @@
 body{
     background-color: #3d3d3d;
-    color: #fefefe;
+    padding: 0!important;
+    margin: 0!important;
+}
+.top{
+    height: 48px;
+    width: 100%;
+    margin-bottom: 66px;
+    box-shadow: 0 0 20px 0 rgb(0, 8, 83);
+    background-color: rgb(34, 0, 158);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.side{
+    width: 200px;
+    height: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(40, 31, 170);
+    box-shadow: -2px 0 36px 0 rgb(0, 8, 83);
+}
+.left{
+    border-right: solid rgb(18, 11, 114) 7px;
+    border-bottom: solid rgb(18, 11, 114) 4px;
+    border-radius: 0 18px 18px 0;
+}
+.right{
+    border-left: solid rgb(18, 11, 114) 7px;
+    border-bottom: solid rgb(18, 11, 114) 4px;
+    border-radius: 18px 0 0 18px;
+}
+.game-canvas{
+    border: solid rgb(41, 41, 41) 1px;
 }

@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    Lorem ipsum gahsdfasdfafasdf
+    <div class="top"></div>
+    <div class="container">
+        <div class="left side"></div>
+        <canvas class='game-canvas' width=700 height=420></canvas>
+        <div class="right side"></div>
+    </div>
 </body>
 </html>
