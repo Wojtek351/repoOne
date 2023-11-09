@@ -1,0 +1,7 @@
+grafika{
+    mapy{k2,a10,d106,sal_wisniowskiego,kotytarze},
+    postacie{pelc,mucha,franus,wisniowski},
+    przedmioty{testerQ?,zaciskarkaQ,koncowki,kabelQ,crossownicaQ,keystoneQ?,podrecznik_do_wszystkiego,snickersQ!!!},
+}
+
+zrobic sprite.js, dokonczyn GameObject.js

@@ -35,4 +35,6 @@ body{
 }
 .game-canvas{
     border: solid rgb(41, 41, 41) 1px;
+    box-shadow: 0 0 20px 0 rgb(0, 8, 83);
+    border-radius: 12px;
 }
