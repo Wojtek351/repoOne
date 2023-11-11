@@ -6,20 +6,21 @@ class Overworld{
     }
 
     init(){
+        
         const image = new Image();
         image.onload = () => {
             this.ctx.drawImage(image,0,0);
         };
         image.src = './images/maps/corridor2.png';
+        
+        const tag1 = new GameObject({
+            x: 5,
+            y: 8,
+        })
 
-        const dupa = new GameObject({
-            x: 10,
-            y: 20,
-            src: './images/objeccts/box.png'
-        });
+        setTimeout(() => {
+            tag1.sprite.draw(this.ctx);
+        }, 200)
 
-        setTimeout(()=>{
-            dupa.sprite.draw(this.ctx);
-        },200)
     }
 }

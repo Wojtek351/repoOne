@@ -10,8 +10,14 @@
     <div class="top"></div>
     <div class="container">
         <div class="left side"></div>
-        <canvas class='game-canvas' width=700 height=420></canvas>
+        <div class="game-container"><canvas class='game-canvas' width=700 height=420></div></canvas>
         <div class="right side"></div>
+
+
+        <script src="./scripts/overworld.js"></script>
+        <script src="./scripts/gameobject.js"></script>
+        <script src="./scripts/sprite.js"></script>
+        <script src="./scripts/init.js"></script>
     </div>
 </body>
 </html>
